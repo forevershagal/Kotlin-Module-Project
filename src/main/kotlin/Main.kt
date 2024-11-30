@@ -1,3 +1,6 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+fun main() {
+    println("Добро пожаловать в приложение 'Заметки'!")
+    val archiveManager = ArchiveManager()
+    archiveManager.manage()
+    println("Программа завершена. До свидания!")
 }
